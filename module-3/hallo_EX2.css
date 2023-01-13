@@ -1,0 +1,29 @@
+/*Yawa*/
+html, body {font-size: 16px;}
+p {font-family: ‘Quattrocento’, Georgia, “Times New Roman” serif;}
+p {font-weight: 400;}
+h1, h2{font-family: ‘Oswald’, Verdana, Arial, sans-serif;}
+h1{font-weight: 700;}
+h2{font-weight: 500;}
+p { line-height: 1.4em;}
+h1 {text-transform: uppercase;/*to make text capital letter*/
+    font-size: 3.052em;
+    word-spacing: 0.5em ;
+    margin: 0;
+    text-align: center;}
+h2 {font-size: 2.441em; 
+    word-spacing:.2em;
+    margin:0;
+    text-align: left; 
+    padding-top: 15px; }
+address {font-family: ‘Quattrocento’, Georgia, “Times New Roman” serif;
+          text-align: center;  }
+a:link {font-weight:bold ;
+    font-size: 1.25em; 
+    color: #4F3674;
+    text-decoration:none}
+a:visited{color: blue;}
+a:hover {text-decoration:underline;
+    background-color:#D6A800;}
+.sentence { font-style: italic;}
+.intro {text-indent: .2em}
