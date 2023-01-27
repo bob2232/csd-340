@@ -1,0 +1,71 @@
+h1{
+    text-align: center;
+}
+
+#image-gallery{
+    display: grid;
+    margin-top: 10%;
+    grid-template-columns: auto auto auto;
+    
+}
+a {
+    text-align: right;
+    font-weight: bold;
+    float: right;
+    margin-bottom: 20px;
+    
+}
+
+img{
+    width: 300px; 
+    height: 350px;
+}
+
+h3{
+    text-align: center;
+}
+
+figure{text-align: center;}
+
+figcaption{
+    font-style: italic;
+    font-size: .75em;
+    
+}
+h1, h3, figcaption{
+    font-family: ‘Oswald’, Verdana, Arial, sans-serif;
+    font-weight: 400;
+}
+
+body{
+    background-color: rgba(247, 112, 24, 20%);
+    
+}
+
+h1, h3, figcaption{
+    color: rgba(185, 63, 8);
+}
+
+.papillon {
+    border-color: rgba(185, 63, 8);
+    border-style:  solid;
+    border-radius: 15px;
+    padding: 5px;
+}
+.html_css {
+    border-color: rgba(185, 63, 8);
+    border-style:  solid;
+    border-radius: 15px;
+    padding: 5px;
+}
+.java {
+    border-color: rgba(185, 63, 8);
+    border-style:  solid;
+    border-radius: 15px;
+    padding: 5px;}
+
+.top{
+    float: right;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
