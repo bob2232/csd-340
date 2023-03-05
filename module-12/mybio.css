@@ -14,10 +14,11 @@ header{
     background-color: darkmagenta;
     color: white;
     text-align: center;
-    padding: 20px;
-
-    
+    padding: 20px;    
 }
+header h1{font-size: 3em;
+    font-weight: 600; }
+
 #biotable{border-collapse: collapse;
     width: 100%;     
 }
