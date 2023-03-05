@@ -18,21 +18,28 @@ header{
 
     
 }
-.bio .contact{
-    color: beige;
+#biotable{border-collapse: collapse;
+    width: 100%;     
 }
-
-.bio img{
-    width: 300px;
-    height: 400px;
+#biotable img{
+    width: 200px;
+    height: 300px;
+    border-radius: 20px;   
 }
 #biotable td{
     margin-left: 20px;
     padding: 15px;
     margin-right: 50px;
+    text-align: justify;
 }
-#bioColumn p{margin-right: 100px;
+#biotable p{margin-right: 100px;
 font-weight: 400;}
+
+ h3{font-size: 1.5em;
+    color: black;
+    font-weight: bold;
+}
+
 figcaption{ text-align: center;}
 
 .card{box-shadow:0 4px 8px 0 ;
@@ -82,12 +89,17 @@ margin-left: 30px;}
 button:hover{
     background-color: aqua;
 }
+button{
+   border-radius: 20px;
+    border: solid;
+}
 
 
 input{
     font-size: 20px;
     padding-left: 5px;
     padding-right: 5px;
+    border-radius: 10px;
 }
 
 #e-mail {margin-left:40px;}
